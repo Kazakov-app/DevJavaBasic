@@ -1,6 +1,6 @@
-package org.example.application;
+package org.example.application.chapter.first;
 
-//Импортируется класс JOptionPane, через * весь пакет подпакет swing
+//Импортируется класс JOptionPane, через * весь подпакет swing
 import javax.swing.*;
 
 public class ShowMeNewWindowDemo {

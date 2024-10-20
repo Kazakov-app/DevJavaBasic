@@ -34,16 +34,16 @@ class UsingIfDemo {
         //Проверка числа на четность/нечетность:
         if (number % 2 == 0) {//Если число четное
             //Создание объекта пиктограммы:
-            img = new ImageIcon("C:\\Yaprakticum\\projects\\DevJava\\pictures\\bitcoin.png");
+            img = new ImageIcon("src\\main\\resources\\pictures\\bitcoin.png");
             //текст сообщения:
-            txt = "Число " + number + "- четное!";
+            txt = "Число " + number + " - четное!";
             //заголовок окна:
             title = "Четное число";
         } else {//Если число нечетное
             //Создание объекта пиктограммы:
-            img = new ImageIcon("C:\\Yaprakticum\\projects\\DevJava\\pictures\\bitcoin.png");
+            img = new ImageIcon("src\\main\\resources\\pictures\\bitcoin.png");
             //текст сообщения:
-            txt = "Число " + number + "- нечетное!";
+            txt = "Число " + number + " - нечетное!";
             //заголовок окна:
             title = "Нечетное число";
             }

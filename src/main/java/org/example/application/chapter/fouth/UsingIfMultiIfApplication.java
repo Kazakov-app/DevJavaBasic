@@ -12,7 +12,7 @@ class UsingIfMultiIfDemo {
         String animal;
         //Текстовая переменная с начальным значением,
         //определяющим путь к файлу с изображением:
-        String file="C:\\Yaprakticum\\projects\\DevJava\\pictures\\";
+        String file="src\\main\\resources\\pictures\\";
         //Текстовые переменные с названием животных:
         String wolf="Волк";
         String fox="Лиса";

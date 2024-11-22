@@ -93,7 +93,7 @@ class Bravo extends Alpha{
         //Вызов закрытого метода:
         show();
     }
-    //Rjycnhernjh c ldevz fhuevtynfvb
+    //Конструктор с двумя аргументами:
     Bravo(String name,int code){
         //Вызов конструктора подкласса с тремя аргументами:
         this(name,code,'D');

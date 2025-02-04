@@ -1,4 +1,4 @@
-package application.chapter.my.examples;
+package application.chapter.z.my.examples;
 
 import java.util.Scanner;
 
@@ -85,3 +85,29 @@ class MaxNumberDemo {
     }
 
 }
+
+class Examples {
+    public static void main(String[] args) {
+        /*String message = " Veni, vidi, vici!   ";
+        int messageL=message.length();
+        String messageT=message.trim();
+        int messageTL=messageT.length();
+        System.out.println(messageL-messageTL);
+
+         */
+
+        int a = 2, b = 1, c = 3;
+        if (a <= (c - b)) {
+            a = c + b; //3+1=4
+        } else if (c > b) {
+            a = a * b;
+        }
+        if (a > c) // тут а=4, уже больше 3
+            b = a / 2; //b=2
+        c = a * b; // тут 8
+        System.out.println(a + b + c);
+                            //4+2+8
+    }
+}
+
+

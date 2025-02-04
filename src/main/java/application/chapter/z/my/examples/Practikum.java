@@ -1,4 +1,4 @@
-package application.chapter.my.examples;
+package application.chapter.z.my.examples;
 import java.util.Random;
 import java.util.Scanner;
 class PractikumDemo {

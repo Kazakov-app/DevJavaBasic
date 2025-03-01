@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Приветствие с описанием</title>
+  <style>
+  body {
+    font-family: sans-serif;
+    text-align: center;
+  }
+
+  .description {
+    text-align: left;
+    margin: 20px;
+  }
+
+  .description p {
+    margin-bottom: 0.5em;
+  }
+
+  .description strong {
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<h1>Привет, мир!</h1>
+<p id="output">Этот текст отображается с помощью JavaScript.</p>
+
+<script>
+    // JavaScript код для изменения текста элемента с id "output"
+    document.getElementById("output").textContent = "Это сообщение сгенерировано JavaScript!";
+  </script>
+
+<div class="description">
+  <h2>Как это работает:</h2>
+  <p><strong>!DOCTYPE html:</strong> Объявление типа документа HTML5.</p>
+  <p><strong>html:</strong> Корневой элемент HTML-страницы.</p>
+  <p><strong>head:</strong> Содержит метаданные о странице (например, заголовок).</p>
+  <p><strong>title:</strong> Заголовок вкладки браузера.</p>
+    <p><strong>style:</strong> Встроенные стили CSS для центрирования текста и задания шрифта.</p>
+    <p><strong>body:</strong> Содержит видимое содержимое страницы.</p>
+    <p><strong>h1:</strong> Заголовок первого уровня.</p>
+    <p><strong>p id="output":</strong> Параграф с id="output". Этот id используется JavaScript для доступа к элементу.</p>
+    <p><strong>script:</strong> Включает JavaScript код.</p>
+    <p><strong>document.getElementById("output"):</strong> Получает HTML-элемент с id="output".</p>
+    <p><strong>.textContent = "Это сообщение сгенерировано JavaScript!";:</strong> Изменяет текст внутри элемента, найденного выше.</p>
+
+    <h2>Как запустить:</h2>
+    <p>Сохраните этот код в файл с расширением .html (например, привет.html).</p>
+    <p>Откройте файл привет.html в любом современном веб-браузере (Chrome, Firefox, Safari, Edge и т.д.).</p>
+    <p>Браузер интерпретирует HTML и выполнит JavaScript код, отобразив "Привет, мир!" и текст, сгенерированный JavaScript.</p>
+
+    <h2>Почему это лучше, чем Java Applets:</h2>
+    <p><strong>Совместимость:</strong> Работает во всех современных браузерах без необходимости установки дополнительных плагинов.</p>
+    <p><strong>Безопасность:</strong> JavaScript имеет гораздо более строгие ограничения безопасности, чем Java Applets.</p>
+    <p><strong>Производительность:</strong> JavaScript часто более производителен, особенно для простых задач.</p>
+    <p><strong>Стандарты:</strong> HTML, CSS и JavaScript являются стандартами веб-разработки.</p>
+    <p><strong>Простота разработки:</strong> Разработка на HTML и JavaScript обычно проще и быстрее, чем разработка Java Applets.</p>
+
+    <p>Этот простой пример показывает, как можно добиться интерактивности на веб-странице без использования устаревших технологий, таких как Java Applets.</p>
+    </div>
+
+    </body>
+    </html>
